@@ -8,10 +8,7 @@ from .post_models import create_post_table, get_posts, find_post, random_post
 
 app = Flask(__name__)
 
-######## SET THE SECRET KEY ###############
-# You can write random letters yourself or
-# Go to https://randomkeygen.com/ and select a random secret key
-####################
+
 app.secret_key = "(3kfo3)"
 
 with app.app_context():
